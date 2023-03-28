@@ -1,0 +1,177 @@
+body {
+    background-color: teal;
+    color: yellow;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+h1 {
+    font-size: 3rem;
+}
+h2 {
+    font-size: 2rem;
+}
+header > img  {
+display: block;
+margin: auto;
+max-width: 50vw;
+padding: 1rem 1rem;
+border-radius: 20000px; 
+background-color: aqua;
+}
+nav ul {
+  list-style: none;
+  background-color: aqua;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  border-radius: 90px;
+}
+nav li {
+  font-family: 'Oswald', sans-serif;
+  font-size: 1.2em;
+  line-height: 40px;
+  height: 40px;
+  border-bottom: 1px solid #888;
+  width: 100%;
+}
+ 
+nav a {
+  text-decoration: none;
+  color: teal;
+  display: block;
+  transition: .3s background-color;
+}
+ 
+nav a:hover {
+  background-color: orange;
+}
+ 
+nav a.active {
+  background-color: #fff;
+  color: #444;
+  cursor: default;
+}
+ 
+/* @media screen and (min-width: 600px) */ {
+  nav li {
+    width: 120px;
+    border-bottom: none;
+    height: 50px;
+    line-height: 50px;
+    font-size: 1.4em;
+  }
+ 
+  /* Option 1 - Display Inline */
+  nav li {
+    display: inline-block;
+    margin-right: -4px;
+  }
+  
+section {
+    display: flex;
+}
+
+article {
+    flex: 1;
+    padding: 2%;
+}
+footer {
+    display: flex;
+    background-color: darkgreen;
+}
+footer div {
+    flex:1;
+}
+footer img {
+    max-width: 3vw;
+}
+
+.footer-logo {
+    max-width: 20%;
+    margin:20px;
+}
+/* Animated border box */
+    @media screen and (min-width: 600px) {
+ .banner img {
+
+        border-radius: 50%;
+        border-top: 2px dashed #ffcc00;
+        border-right: 2px dashed #ffcc00;
+        border-left: 2px dashed orange;
+        border-bottom: 2px dashed #000000; 
+        border-top: solid orange 3px;
+        border-left: dashed yellow 6px;
+        padding: 20px 40px;
+        animation: spin 5s infinite linear;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        animation: spin 5s infinite reverse linear;
+        border-radius: 50%;
+ }
+    
+
+.banner {
+    background: linear-gradient(45deg,rgba(0,0,0,0) 0,rgba(0,0,0,.1) 50%,rgba(0,0,0,0) 50%,rgba(0,0,0,.1) 100%),linear-gradient(135deg,#8ed1fc 0, teal 30%, orangered 30%,orange 74%, teal 74%, #8ed1fc 100%) !important; 
+padding: 20px;
+}
+
+    @keyframes spin {
+        100% {
+            transform: rotate(1turn);
+        }
+    }
+    */
+  
+  /* banner style */
+  .banner {
+ background: linear-gradient(45deg,rgba(0,0,0,0) 0,rgba(0,0,0,.1) 50%,rgba(0,0,0,0) 50%,rgba(0,0,0,.1) 100%),linear-gradient(135deg,#8ed1fc 0, teal 30%, orangered 30%,orange 74%, teal 74%, #8ed1fc 100%) !important; }
+
+ .banner img {
+    max-height: 100px;
+ }
+    }
+    
+@media screen and (max-width: 40px) 
+{
+.banner img {
+        border-radius: 50%;
+        border-top: 2px dashed #ffcc00;
+        border-right: 2px dashed #ffcc00;
+        border-left: 2px dashed orange;
+        border-bottom: 2px dashed #000000; 
+        border-top: solid orange 3px;
+        border-left: dashed yellow 6px;
+        padding: 20px 40px;
+        animation: spin 5s infinite linear;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        animation: spin 5s infinite reverse linear;
+        border-radius: 50%;
+ }
+    
+
+.banner {
+    background: linear-gradient(45deg,rgba(0,0,0,0) 0,rgba(0,0,0,.1) 50%,rgba(0,0,0,0) 50%,rgba(0,0,0,.1) 100%),linear-gradient(135deg,#8ed1fc 0, teal 30%, orangered 30%,orange 74%, teal 74%, #8ed1fc 100%) !important; 
+padding: 20px;
+}
+
+    @keyframes spin {
+        100% {
+            transform: rotate(1turn);
+        }
+    }
+    */
+  
+  /* banner style */
+  .banner {
+ background: linear-gradient(45deg,rgba(0,0,0,0) 0,rgba(0,0,0,.1) 50%,rgba(0,0,0,0) 50%,rgba(0,0,0,.1) 100%),linear-gradient(135deg,#8ed1fc 0, teal 30%, orangered 30%,orange 74%, teal 74%, #8ed1fc 100%) !important; }
+
+ .banner img {
+    max-height: 100px;
+ }
+    }
