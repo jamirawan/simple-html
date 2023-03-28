@@ -55,7 +55,7 @@ nav a.active {
   cursor: default;
 }
  
-/* @media screen and (min-width: 600px) */ {
+@media screen and (min-width: 600px)  {
   nav li {
     width: 120px;
     border-bottom: none;
