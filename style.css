@@ -5,6 +5,7 @@ body {
     margin-bottom: 3rem;
     margin-left: 5%;
     margin-right: 5%;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 h1 {
@@ -12,6 +13,9 @@ h1 {
 }
 h2 {
     font-size: 2rem;
+}
+p {
+  line-height: 1.5rem;
 }
 header > img  {
 display: block;
@@ -76,11 +80,20 @@ section {
 
 article {
     flex: 1;
-    padding: 2%;
+    padding: 1%;
+    background-color: rgb(195, 249, 255);
+    margin: 10px;
+    color: black;
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.4);;
 }
 footer {
     display: flex;
-    background-color: darkgreen;
+    background-color: rgb(15, 101, 102);
+    box-shadow: 10px 5px 10px rgba(0, 0, 0, 0.4);;
+    margin-top: 20px;
+
+
+
 }
 footer div {
     flex:1;
@@ -174,4 +187,21 @@ padding: 20px;
  .banner img {
     max-height: 100px;
  }
+    }
+
+    article img {
+      max-width: 100%;
+    }
+
+    button {
+      background: rgb(46, 238, 244);
+      padding: 10px;
+      border-radius: 9px;
+      float: right;
+      color:black;
+    }
+
+    .footer-tagline {
+      font-style: italic;
+      color: gold;
     }
