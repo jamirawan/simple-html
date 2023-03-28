@@ -126,6 +126,7 @@ footer img {
         animation: spin 5s infinite reverse linear;
         border-radius: 50%;
         max-height: 100px;
+        margin-left: 20px;
  }
 
 .banner {
@@ -166,3 +167,4 @@ flex-direction: row-reverse;
       font-style: italic;
       color: gold;
     }
+
